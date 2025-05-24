@@ -11,7 +11,7 @@ export default function MapComponent({ address }) {
     zoom: 5,
   });
 
-  const [coordinates, setCoordinates] = useState(null);c
+  const [coordinates, setCoordinates] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
