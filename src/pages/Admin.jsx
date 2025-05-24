@@ -1,7 +1,7 @@
 export default function Admin() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black p-6">
-      {/* Animated Background Elements */}
+   
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 animate-pulse" />
@@ -9,7 +9,7 @@ export default function Admin() {
 
       <div className="relative max-w-3xl mx-auto">
         <div className="bg-black/70 backdrop-blur-xl rounded-2xl p-8 border border-gray-800 shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300">
-          {/* Header Section */}
+        
           <div className="mb-8">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Admin Dashboard
@@ -19,7 +19,7 @@ export default function Admin() {
             </p>
           </div>
 
-          {/* Coming Soon Card */}
+     
           <div className="group relative bg-gradient-to-br from-black via-gray-900 to-black p-6 rounded-xl border border-cyan-400/20 hover:border-purple-400/40 transition-all duration-300">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#00ffff10_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity" />
             
@@ -37,7 +37,7 @@ export default function Admin() {
               </div>
             </div>
 
-            {/* Progress Bar */}
+           
             <div className="mt-6">
               <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
                 <div 
@@ -51,7 +51,7 @@ export default function Admin() {
             </div>
           </div>
 
-          {/* Action Buttons */}
+     
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
             <button className="p-4 bg-gray-900/50 hover:bg-cyan-400/10 border border-cyan-400/20 rounded-lg transition-all duration-300 group">
               <span className="text-cyan-400 group-hover:text-purple-400 transition-colors">
@@ -70,7 +70,7 @@ export default function Admin() {
             </button>
           </div>
 
-          {/* Status Indicator */}
+     
           <div className="mt-8 flex items-center justify-end space-x-2">
             <div className="h-3 w-3 bg-green-400 rounded-full animate-pulse" />
             <span className="text-sm text-green-400/80">System Active</span>

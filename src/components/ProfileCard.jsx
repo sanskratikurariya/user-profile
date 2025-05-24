@@ -4,12 +4,12 @@ export default function ProfileCard({ profile, onSummaryClick }) {
   return (
     <div className="group relative p-0.5 rounded-2xl bg-gradient-to-br from-cyan-400/30 to-purple-500/30 hover:shadow-[0_0_25px_rgba(0,243,255,0.3)] transition-all duration-300">
       <div className="relative bg-gray-900/80 backdrop-blur-xl rounded-2xl p-6 hover:bg-gray-800/60 transition-all duration-300">
-        {/* Diagonal corner accents */}
+      
         <div className="absolute top-0 right-0 w-8 h-0.5 bg-cyan-400/50 transform -translate-y-1 -translate-x-4 -rotate-45" />
         <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-purple-400/50 transform translate-y-1 translate-x-4 rotate-45" />
         
         <div className="flex flex-col md:flex-row gap-6 items-center">
-          {/* Avatar with animated border */}
+      
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full opacity-30 blur-lg group-hover:opacity-50 transition-opacity" />
             <img 
@@ -28,7 +28,7 @@ export default function ProfileCard({ profile, onSummaryClick }) {
               {profile.description}
             </p>
            
-            {/* Action Buttons */}
+     
             <div className="flex flex-wrap justify-center md:justify-start gap-3 mt-4">
                  <Link  to={`/student/${profile.id}`}>
               <button 
@@ -51,7 +51,7 @@ export default function ProfileCard({ profile, onSummaryClick }) {
           </div>
         </div>
 
-        {/* Hover effect line */}
+    
         <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-cyan-400 group-hover:w-3/4 group-hover:left-1/4 transition-all duration-500" />
       </div>
     </div>

@@ -2,12 +2,12 @@
 export default function ProfileDetails({ profile }) {
   return (
     <div className="relative bg-gradient-to-br from-black via-gray-900 to-black rounded-2xl p-4 md:p-8 border-2 border-cyan-400/30 shadow-2xl shadow-cyan-500/20 hover:shadow-purple-500/30 transition-all group overflow-x-hidden">
-      {/* Diagonal corner accents */}
+   
       <div className="absolute top-0 right-0 w-8 h-0.5 bg-cyan-400/50 transform -translate-y-1 -translate-x-4 -rotate-45" />
       <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-purple-400/50 transform translate-y-1 translate-x-4 rotate-45" />
 
       <div className="flex flex-col lg:flex-row gap-4 md:gap-8 items-center">
-        {/* Avatar with animated border */}
+    
         <div className="relative w-24 h-24 md:w-32 md:h-32">
           <div className="absolute -inset-1 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full opacity-30 blur-lg group-hover:opacity-50 transition-opacity" />
           <img 
@@ -27,7 +27,7 @@ export default function ProfileDetails({ profile }) {
             {profile.description}
           </p>
 
-          {/* Info Cards */}
+        
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mt-4 md:mt-6">
             <div className="p-3 md:p-4 bg-gray-900/50 rounded-xl border border-cyan-400/20">
               <div className="flex items-center gap-2 md:gap-3">
@@ -65,7 +65,7 @@ export default function ProfileDetails({ profile }) {
             </div>
           </div>
 
-          {/* Social Links */}
+     
           <div className="flex justify-center lg:justify-start gap-3 md:gap-4 mt-6 md:mt-8">
             <button className="p-2 md:p-3 bg-cyan-400/10 hover:bg-cyan-400/20 rounded-lg transition-all border border-cyan-400/30 hover:border-cyan-400/50">
               <span className="text-xl md:text-2xl">📧</span>

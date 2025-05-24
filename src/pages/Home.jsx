@@ -17,14 +17,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
-      {/* Animated Background */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-stripes.png')] opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 animate-pulse" />
       </div>
 
       <div className="relative container mx-auto p-4 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Left Column - Search & Profiles */}
         <div className="space-y-8">
           <div className="bg-black/80 backdrop-blur-xl rounded-2xl p-6 shadow-2xl border border-gray-800">
             <h1 className="text-3xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ProfileDetailsPage from './pages/ProfileDetailsPage';
 import Admin from './pages/Admin';
-import {Link} from 'react-router-dom'; // Add this import at the top
+import {Link} from 'react-router-dom'; 
 import StudentSummary from './components/StudentSummary';
 
 
@@ -19,9 +19,8 @@ export default function App() {
               SearchSphere
             </h1>
 
-            {/* Add navigation links container */}
             <div className="flex items-center gap-6">
-              {/* Admin Panel Link */}
+             
               <Link
                 to="/admin"
                 className="relative px-4 py-2 border border-cyan-400/30 rounded-lg 
